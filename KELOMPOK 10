@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    // Membuat 3 variabel biasa
+    int a = 5;
+    int b = 10;
+    int c = 15;
+
+    // Membuat 3 variabel pointer yang menunjuk ke masing-masing variabel biasa
+    int* aPtr = &a;
+    int* bPtr = &b;
+    int* cPtr = &c;
+
+    // Mencetak nilai dari 3 variabel biasa menggunakan dereference
+    cout << "Nilai dari variabel a: " << *aPtr << endl;
+    cout << "Nilai dari variabel b: " << *bPtr << endl;
+    cout << "Nilai dari variabel c: " << *cPtr << endl;
+
+    return 0;
+}
