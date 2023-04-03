@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int a = 10;
+    int b = 20;
+    int c = 30;
+    
+    int* ptr_a = &a;
+    int* ptr_b = &b;
+    int* ptr_c = &c;
+    
+    cout << "Alamat memori a: " << &a << endl;
+    cout << "Alamat memori b: " << &b << endl;
+    cout << "Alamat memori c: " << &c << endl;
+    
+    cout << "Nilai ptr_a: " << *ptr_a << endl;
+    cout << "Nilai ptr_b: " << *ptr_b << endl;
+    cout << "Nilai ptr_c: " << *ptr_c << endl;
+    
+    return 0;
+}
